@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+  width: 70%;
+  background-color: rgb(221, 221, 221);
+}
+td,
+th {
+  padding: 0.4rem;
+}
+tfoot,
+thead {
+  background-color: rgb(58, 58, 58);
+  color: white;
+}
+tr:nth-child(odd) {
+  background-color: rgb(177, 173, 171);
+}
+
+th {
+  text-align: center;
+}
+thead tr td,
+thead tr th,
+tfoot tr td {
+  background-color: rgb(58, 58, 58);
+  color: white;
+}
+tfoot tr td {
+  text-align: right;
+}
+.button1 {
+  width: 70%;
+  text-align: right;
+}
+button {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+  margin: 10px 0 0 15px;
+  border: none;
+  font-size: 1.1rem;
+}
+i {
+  color: rgb(59, 59, 59);
+}
